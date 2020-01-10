@@ -4,18 +4,20 @@
     <title>MELBA journal</title>
     
     <style type="text/css">
-      div {
-        display: table-cell;
-        width: 250px;
-        height: 200px;
-        padding: 10px;
-        border: 3px dashed #1c87c9;
-        vertical-align: middle;
-      }
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
     </style>
     
   </head>
   <body>
-    <div>MELBA journal.</div>
+    <div class="container">
+    <span>MELBA journal!</span>
+</div>
   </body>
 </html>
